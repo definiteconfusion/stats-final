@@ -22,6 +22,7 @@ for item in sr_y:
     sr_y[item] = (sr_y[item][0] * 100, sr_y[item][1])
 [print(sr_y[x]) for x in sr_y]
 
+
 plt.figure(figsize=(10, 5))
 plt.title('Worldwide Percentate of GDP Spent on Green Energy')
 plt.xlabel('Year')
